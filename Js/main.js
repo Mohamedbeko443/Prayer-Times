@@ -1,7 +1,3 @@
-import axios from 'axios';
-
-
-
 let cities = [
     { arabic: "القاهرة", english: "Cairo" },
     { arabic: "الجيزة", english: "Giza" },
