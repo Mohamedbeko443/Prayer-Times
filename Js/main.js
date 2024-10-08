@@ -73,7 +73,7 @@ function getPrayersTimings(cityName) {
         const readableDate = response.data.data.date.readable;
         const weekDay = response.data.data.date.hijri.weekday.ar;
 
-        const date = readableDate + " " + weekDay;
+        let date = readableDate + " " + weekDay;
         document.getElementById("date").innerHTML = date;
 
         // console.log(response.data.data.timings.Fajr);
