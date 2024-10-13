@@ -16,6 +16,13 @@ body{
     font-weight: 400;
 }
 
+@media (width < 345px) {
+    .txt h1{
+        font-size: 50px;
+        font-weight: 400;
+    }
+}
+
 .txt h6{
     font-weight: 300;
 }
